@@ -92,7 +92,7 @@
 #entry-heading(
   "Mirai Labs",
   "Research Engineer",
-  dates: "Mar 2025 - Present",
+  dates: "Mar 2026 - Present",
   meta: [Full-time · Remote · San Francisco, CA, USA],
 )
 - Research model- and system-level methods for speculative decoding, including
