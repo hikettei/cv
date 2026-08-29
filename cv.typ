@@ -151,3 +151,6 @@
   [*Sokan no Susume Scholarship*, Keio University · #text(fill: muted, "$15,000 scholarship")],
   [#text(size: 8.8pt, weight: "medium")[Apr 2025 - Present]],
 )
+
+#section("Languages")
+*Japanese* — Native #h(18pt) *English* — Upper-intermediate (CEFR B2)
