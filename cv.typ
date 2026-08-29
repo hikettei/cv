@@ -28,6 +28,12 @@
 )
 
 #let external-link(url, label) = link(url, text(fill: accent, label))
+#let contact-icon(glyph) = text(
+  font: "FontAwesome",
+  size: 8.6pt,
+  fill: accent,
+  glyph,
+)
 
 #let section(title) = {
   v(10.5pt)
@@ -68,6 +74,10 @@
     Research Engineer | ML Systems, Compilers, Inference
   ]),
   align(left, text(size: 8.9pt)[
+    #contact-icon("\u{f0e0}") #h(3pt)
+    #external-link("mailto:yuma.oda@keio.jp", "yuma.oda@keio.jp")
+    #h(14pt)
+    #contact-icon("\u{f09b}") #h(3pt)
     #external-link("https://github.com/hikettei", [github.com/hikettei])
   ]),
 ))
@@ -84,7 +94,7 @@
 #entry-heading(
   "Keio University",
   "B.A. Candidate, Environment and Information Studies",
-  dates: "Apr 2025 - Present",
+  dates: "Apr 2025 - Apr 2029 (Expected)",
 )
 #text(size: 8.8pt, fill: muted)[Focus: Computer Science, Transactions, and Databases]
 
@@ -121,7 +131,7 @@
   arXiv:2607.06763_, 2026.
 ]
 
-#section("Selected Projects & Open Source")
+#section("Personal Project & Open Source Contribution")
 #entry-heading(
   [#external-link("https://github.com/hikettei/Caten", [Caten])],
   "Creator and Maintainer",
@@ -149,7 +159,7 @@
   [*METI Minister's Award*, U-22 Programming Contest · #text(fill: muted, "$3,600 award")],
   [#text(size: 8.8pt, weight: "medium")[Nov 2023]],
   [*Sokan no Susume Scholarship*, Keio University · #text(fill: muted, "$15,000 scholarship")],
-  [#text(size: 8.8pt, weight: "medium")[Apr 2025 - Present]],
+  [#text(size: 8.8pt, weight: "medium")[Apr 2025 - Apr 2029 (Expected)]],
 )
 
 #section("Languages")
