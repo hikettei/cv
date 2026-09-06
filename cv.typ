@@ -91,10 +91,9 @@
 #line(length: 100%, stroke: 0.8pt + accent)
 #v(6pt)
 #text(size: 10pt)[
-  Second-year undergraduate at Keio University and Research Engineer at Mirai Labs,
-  focused on ML systems, compiler infrastructure, and efficient LLM inference.
-  Current research spans speculative decoding, model-runtime co-design, and neural
-  network quantization. Long-standing interests include compilers and Common Lisp.
+  Research Engineer at Mirai Labs and second-year undergraduate at Keio University.
+  My work spans ML systems, compilers, and efficient LLM inference, with a focus on speculative decoding for Apple devices.
+  Numerical computing enjoyer and Common Lisp enthusiast.
 ]
 
 #section("Education")
