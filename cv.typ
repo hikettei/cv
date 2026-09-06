@@ -96,6 +96,11 @@
   Numerical computing enjoyer and Common Lisp enthusiast.
 ]
 
+#section("Research Interests")
+#text(size: 10pt)[
+  Fascinated by the computational capabilities of AI and by the design of high performance training and inference systems, from models and compilers to networking.
+]
+
 #section("Education")
 #entry-heading(
   "Keio University",
