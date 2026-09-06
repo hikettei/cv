@@ -111,9 +111,8 @@
   dates: "Mar 2026 - Present",
   meta: [Full-time · Remote · San Francisco, CA, USA],
 )
-- Research model- and system-level methods for speculative decoding, including
-  co-design of draft models and runtime verification, as described in this
-  #external-link("https://arxiv.org/abs/2607.06763", [paper]).
+- Co-developed #external-link("https://arxiv.org/abs/2607.06763", [DFlash-TfM]), a state-of-the-art speculative decoding method, achieving a 4.37× speedup over autoregressive decoding and 24.7% higher throughput than optimized DFlash on Qwen3.6-27B (BF16, single NVIDIA B200).
+- Co-developed #external-link("https://trymirai.com/blog/speculative-decoding-in-uzu", [speculative decoding in Uzu]) for Apple M5-series Macs, achieving nearly 2× the decoding throughput of MTPLX and over 3× that of llama.cpp on Qwen3.6-27B at comparable quantization levels.
 
 #v(3.5pt)
 #entry-heading(
