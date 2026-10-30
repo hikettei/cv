@@ -98,7 +98,8 @@
 
 #section("Research Interests")
 #text(size: 10pt)[
-  Fascinated by the computational capabilities of AI and by the design of high performance training and inference systems, from models and compilers to networking.
+  Hardware-software co-design for machine learning systems, including
+  high-performance computing, tensor compilers, and inference optimization for large language model.
 ]
 
 #section("Education")
@@ -116,8 +117,10 @@
   dates: "Mar 2026 - Present",
   meta: [Full-time · Remote · San Francisco, CA, USA],
 )
-- Co-developed #external-link("https://arxiv.org/abs/2607.06763", [DFlash-TfM]), a state-of-the-art speculative decoding method, achieving a 4.37× speedup over autoregressive decoding and 24.7% higher throughput than optimized DFlash on Qwen3.6-27B (BF16, single NVIDIA B200).
-- Co-developed #external-link("https://trymirai.com/blog/speculative-decoding-in-uzu", [speculative decoding in Uzu]) for Apple M5-series Macs, achieving nearly 2× the decoding throughput of MTPLX and over 3× that of llama.cpp on Qwen3.6-27B at comparable quantization levels.
+- Proposed #external-link("https://arxiv.org/abs/2607.06763", [DFlash-TfM]),
+  a state-of-the-art speculative decoding algorithm for efficient LLM inference.
+- Co-developed #external-link("https://trymirai.com/blog/speculative-decoding-in-uzu", [speculative decoding in Uzu]),
+  shipped as part of an official Uzu release.
 
 #v(3.5pt)
 #entry-heading(
@@ -126,40 +129,38 @@
   dates: "Dec 2023 - Aug 2026",
   meta: [Part-time · Hybrid · Minato-ku, Tokyo, Japan],
 )
-- Built deep-learning compiler infrastructure and neural network quantization
-  methods for computer vision models.
+- Developed deep-learning compilers and quantization methods for computer vision.
 - Researched efficient training methods for mixture-of-experts models.
-- Built reinforcement learning infrastructure across 56 NVIDIA H200 GPUs for
-  automated RTL design, including agent architecture, training harnesses, and
-  data/evaluation pipelines.
+- Built reinforcement learning infrastructure for automated RTL design
+  on a 56-H200 GPU cluster, including agents, training harnesses,
+  and data/evaluation pipelines.
 
 #section("Publication")
 #text(size: 9.6pt)[
   *Yuma Oda*, Ryan Mathieu, Roman Knyazhitskiy, and Artur Chakhvadze.
-  “#external-link("https://arxiv.org/abs/2607.06763", [Trees from Marginals:
-  Autoregressive drafting with factorized priors]).” _arXiv preprint
-  arXiv:2607.06763_, 2026.
+  “Trees from Marginals: Autoregressive drafting with factorized priors.”
+  _Under review at ICLR 2027._
+  #external-link("https://arxiv.org/abs/2607.06763", [arXiv]) ·
+  #external-link("https://openreview.net/forum?id=fMak91fLpR", [OpenReview])
 ]
 
 #section("Personal Project & Open Source Contribution")
 #entry-heading(
   [#external-link("https://github.com/hikettei/Caten", [Caten])],
-  "Creator and Maintainer",
+  "Personal Open Source Project",
 )
-- Created an experimental deep-learning compiler in Common Lisp using lightweight
-  IRs, polyhedral compilation, and an optimizing pattern matcher.
-- Designed a RISC-style graph IR that lowers computation to 26 composable
-  primitive operations.
-- Built lazy evaluation, Clang JIT compilation, model inference demos, and
-  experimental training and automatic differentiation support.
+- Deep Learning compiler from scratch in Common Lisp with automatic differentiation,
+  lazy evaluation, and JIT compilation for model inference and training.
+- Based on a RISC-Style tensor IR with graph optimization, polyhedral compilation,
+  and an optimizing pattern matcher.
 
 #v(3.5pt)
 #entry-heading(
   [#external-link("https://github.com/tinygrad/tinygrad", [tinygrad])],
-  [Fast-math approximations, #external-link("https://github.com/tinygrad/tinygrad/pull/5187", [PR #5187])],
+  "Open Source Contribution",
 )
 - Completed an approximation bounty by implementing SIN, LOG2, and EXP2
-  approximations; merged into tinygrad.
+  approximations; merged into tinygrad #external-link("https://github.com/tinygrad/tinygrad/pull/5187", "[PR 5187]").
 
 #section("Honors & Awards")
 #grid(
