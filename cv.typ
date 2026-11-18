@@ -140,8 +140,7 @@
   *Yuma Oda*, Ryan Mathieu, Roman Knyazhitskiy, and Artur Chakhvadze.
   “Trees from Marginals: Autoregressive drafting with factorized priors.”
   _Under review at ICLR 2027._
-  #external-link("https://arxiv.org/abs/2607.06763", [arXiv]) ·
-  #external-link("https://openreview.net/forum?id=fMak91fLpR", [OpenReview])
+  #external-link("https://arxiv.org/abs/2607.06763", [arXiv]).
 ]
 
 #section("Personal Project & Open Source Contribution")
